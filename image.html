@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            text-align: center;
+            color:blue;
+        }
+        .bottom-left {
+            position: absolute;
+            bottom: 32px;
+            left: 16px;
+          }
+          
+          .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+          }
+          
+          .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+          }
+          
+          .bottom-right {
+            position: absolute;
+            bottom: 32px;
+            right: 16px;
+          }
+          
+          .centered {
+            position: absolute;
+            top: 100%;
+            left: 100%;
+            transform: translate(50%, 50%);
+          }
+    </style>
+</head>
+<body>
+    <h2>Image Text</h2>
+    <p>How to place text  over an  image .</p>
+    <div class="container">
+        <img src="img1.jpeg" alt="image" style="width: 100%;">
+        <div class="bottom-left">bottom-left</div>
+        <div class="top-left">top-left</div>
+        <div class="top-right">top-left</div>
+        <div class="bottom-right">bottom-right</div>
+        <div class="centred">centred</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(red, rgb(236, 147, 14), rgb(10, 114, 232));
+    background-image: conic-gradient(45deg,aqua,violet,magenta);
+}
+
+.dicv{
+    border: 10px solid rgb(239, 4, 4);
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(green,aqua,blue,red,white,yellow,purple,orange,pink);
+    
+}
